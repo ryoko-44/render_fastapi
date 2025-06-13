@@ -35,8 +35,8 @@ def omikuji():
     return omikuji_list[random.randrange(10)]
 
 @app.post("/present")
-async def give_present(present):
-    return {"response": f"サーバです。メリークリスマス！ {present}ありがとう。お返しはキャンディーです。"}  # f文字列というPythonの機能を使っている
+async def give_lovemessage(message):
+    return {"response": f"サーバです。 {message}ありがとう。お返しは愛です。"}  # f文字列というPythonの機能を使っている
 
 ### コードいろいろ... ###
 
