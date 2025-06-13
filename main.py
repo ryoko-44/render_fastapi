@@ -44,7 +44,7 @@ def index():
             <title>Some HTML in here</title>
         </head>
         <body>
-            <h1>Look ma! HTML!</h1>
+            <h1>Please give me S.</h1>
         </body>
     </html>
     """
